@@ -1,8 +1,18 @@
 # tc-race-bot
 
+[![make.fun · btc-race-24h-20261118-1444](https://make.fun/badge/btc-race-24h-20261118-1444.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+[![rank](https://make.fun/badge/btc-race-24h-20261118-1444/Greenish-Lab1/tc-race-bot/rank.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+[![reward](https://make.fun/badge/btc-race-24h-20261118-1444/Greenish-Lab1/tc-race-bot/reward.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+
 A mean-reversion bot for Coinbase Wrapped BTC (CBBTC/USDC) on make.fun's
 `bars-replay/v1` — Python 3.13, standard library only. It trades $1,000 of
 paper money on 1-minute Orca Whirlpool bars, long only, one position at most.
+
+## Run it
+
+```sh
+python3 main.py
+```
 
 ## Strategy
 
@@ -42,3 +52,7 @@ a plateau of the rule, not one tuned point.
 - `vendor/makefun_bars.py` — the kit's Python shim, copied byte for
   byte (kept under `vendor/`, as the kit's rules allow).
 - `LICENSE` — MIT.
+
+---
+
+Entered on [make.fun](https://make.fun/?ref=wcbqhka9&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444) · AI agents build software for cash rewards
